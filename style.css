@@ -1,0 +1,334 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    background-image: url(./imagenes/fondo_blanco.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* SCROLL */
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+  *::-webkit-scrollbar-track {
+    background: rgba(177, 167, 167, 0.349);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #692125;
+    border-radius: 5px;
+    
+  }
+/* ENCABEZADO */
+.Encabezado{
+  padding-top: 20px;
+}
+
+.Icono{
+  max-width: 50px;
+  max-height: 50px;
+  margin-left: 2vh;
+  margin-bottom: -5px;
+  margin-top: -15px;
+  animation-duration: 1.5s;
+  animation-delay: 4s;
+  animation-name: rotarIcono;
+}
+.Icon{
+  max-width: 65px;
+  max-height: 65px;
+  margin: 1.5vh;
+  animation-duration: 1.5s;
+  animation-delay: 4s;
+  animation-name: rotarIcono;
+}
+@keyframes rotarIcono {
+  0%{
+      transform: rotate(0deg)
+  }
+  25%{
+      transform: rotate(-35deg)}
+
+  50%{
+      transform: rotate(0deg)
+  }
+  50%{
+      transform: rotate(35deg)}
+
+  100%{
+      transform: rotate(0deg)
+  }
+}
+
+.Menu li a:hover{
+  padding-left: 1.5rem;
+  transform: scale(1.05);
+  background-color: darkred;
+}
+.navbar-toggler:hover{
+  background-color: rgba(139, 0, 0, 0.527);
+}
+.inicioT{
+    font-family: 'Staatliches', cursive;
+}
+.Preferencia {
+ font-family: 'Staatliches', cursive;
+ background: rgb(0,0,0);
+ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
+ rgba(120,120,120,1) 50%, rgba(0,0,0,1) 100%);
+ border-bottom: 4px solid darkred;
+ border-top: 3px solid darkred;
+}
+/* INDEX */
+.carousel-control-next:hover{ background-color: rgba(0, 0, 0, 0.281);}
+.carousel-control-prev:hover{ background-color: rgba(0, 0, 0, 0.281);}
+/* LISTA */
+.Recomendaciones{
+  
+  border: solid 1px darkred;
+  box-shadow: 2px 0px 5px 2px darkred;
+  background-color: rgba(128, 128, 128, 0.233);
+  margin-top: 30px;  
+  padding-left: 0px;  
+  padding-right: 5px;
+  padding-bottom: 3px;
+  padding-top: 15px;
+  margin-right: 20px; 
+  margin-left: 15px; 
+  margin-bottom: 7vh; 
+  transition: transform 1s;
+}
+.Recomendaciones:hover{
+  transform: scale(1.05);
+}
+
+.Recomendaciones small{
+  color: darkred;
+  font-family: 'Inconsolata', monospace;
+  font-size: 0.80em;
+  padding-left: 5px;
+}
+.Recomendaciones h3{
+  font-family: 'Staatliches', cursive;
+  margin:auto;
+  margin-left: 20px;
+}
+.Presentacion img{
+  max-width: 600px; max-height: 350px
+}
+
+.Texto{
+  color: black;
+  padding-top: 9vh;
+  font-size: 1.1em;
+  padding-left: 4vh;
+  font-family: 'Inconsolata', monospace;
+}
+
+/* ICONO */
+.netflix{
+  animation-name: rotarIcon;
+  max-width: 30px;
+  max-height: 30px;
+  transition: all 1s;
+  animation-duration: 0.5s;
+  animation-delay: 8s;
+
+}
+@keyframes rotarIcon{
+  0%{
+      transform: rotate(0deg)
+  }
+
+  50%{
+      transform: rotate(180deg)
+  }
+ 
+  100%{
+      transform: rotate(360deg)
+  }
+}
+
+/* <!-- SUGERENCIA DEL PRIMER INTENTO --> */
+.sugerencia{
+  color:black;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-left: 70px;
+  margin-top:25px;
+}
+.sugerencias{
+  margin-left: 65px;
+  padding-top: 5px;
+  position:static;
+ 
+}
+.sugerencias_series{
+  margin-left: 28px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top:20px;
+  outline: none;
+  border: solid 2px #ccc; 
+  width: 73vh; 
+
+}
+.sugerencias_anime{
+  margin-left: 36px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top:20px;
+  margin-bottom:20px;
+  outline: none;
+  border: solid 2px #ccc;
+  width: 73vh; 
+
+  }
+      .sugerencias_anime:focus{
+          border-color: rgb(168, 1, 1);
+      }
+      .sugerencias_peliculas:focus{
+          border-color: rgb(168, 1, 1);
+      }
+      .sugerencias_series:focus{
+          border-color: rgb(168, 1, 1);
+      }
+.sugerencias_peliculas{
+  margin-left: 4px;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-top:20px;
+  outline: none;
+  border: solid 2px #ccc; 
+  width: 73vh; 
+  }
+.comentario{
+  width:73vh;
+  margin-left:77px;
+  padding: 5px;
+}
+
+.feliz{
+  height: 42vh;
+  width: 42vh;
+  display: block;
+  position:absolute;
+  left: 105vh;
+  right: 0px;
+  top: 30vh;
+}
+.enviar{
+  width:38vh;
+  margin-top: 2.3vh;
+  margin-left: 19vh;
+  margin-bottom: 2vh;
+  
+}
+.divSugerencias{
+  font-family: 'Inconsolata', monospace;
+}
+
+
+
+
+
+/* FOOTER */
+.footer{
+  font-family: 'Inconsolata', monospace;
+  padding-top:2vh;
+  padding-bottom:2vh;
+  border-top: 4px solid darkred;
+                      }
+          .footer a{text-decoration: none;
+                    color: white;}
+          .footer a:hover{color: rgb(158, 76, 76);}
+          .footer strong{ font-size: 18px;}
+          .footer small{ font-size: 12px;}
+
+
+        .footer2{
+          font-family: 'Inconsolata', monospace;
+          padding-top:2vh;
+          padding-bottom:2vh;        
+                                }
+                  .footer2 a{text-decoration: none;
+                            color: white;}
+                  .footer2 a:hover{color: rgb(158, 76, 76);}
+                  .footer2 strong{ font-size: 18px;}
+                  .footer2 small{ font-size: 12px;}
+
+
+
+#cuerpo{
+   min-height: calc(100vh - 100px - 300px);
+   margin-bottom: 7vh;
+}
+
+/* RESPONSIVE */
+/* LISTA */
+@media only screen and (max-width: 768px){
+  .Texto{
+    padding-top: 1vh;
+  }
+  .inicioT img{display: none;}
+
+
+
+
+  
+    /* SUGERENCIAS */
+.feliz{
+  display: none;
+}
+.sugerencia{
+margin-left: 15px;
+text-align: center;
+margin-right: 10px;
+}
+.sugerencias{
+margin-left: 5px;
+position:static;
+display:flex;
+flex-direction: column;
+align-content:flex-start;
+}
+       .sugerencias_series{
+       margin-left: 1px;
+       padding: 5px;
+       margin-top:5px;
+       width: 320px; 
+       }
+       .sugerencias_anime{
+           margin-left: 1px;
+           padding: 5px;
+           margin-top:5px;
+           margin-bottom:20px;
+           width: 320px; 
+       }
+       .SuAnime{margin-right: 40vh;
+                margin-left: 5px;}
+       .sugerencias_peliculas{
+           margin-left: 1px;
+           padding: 5px;
+           margin-top:5px;
+           width: 320px; 
+           }
+       .comentario{
+           width:315px;
+           margin-left:10px;
+           padding: 5px;
+       }
+       .enviar{
+           width:180px;
+           margin-top: 5px;
+           margin-left: 100px;
+           margin-bottom: 55px;
+       }
+}
