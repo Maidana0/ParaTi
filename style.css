@@ -88,6 +88,11 @@ body{
 /* INDEX */
 .carousel-control-next:hover{ background-color: rgba(0, 0, 0, 0.281);}
 .carousel-control-prev:hover{ background-color: rgba(0, 0, 0, 0.281);}
+
+.TituloIndex{display:none}
+
+
+
 /* LISTA */
 .Recomendaciones{
   
@@ -279,7 +284,9 @@ body{
   }
   .inicioT img{display: none;}
 
-
+.carousel-item{
+  /* agregar el responsive del primer intento */
+}
 
 
   
