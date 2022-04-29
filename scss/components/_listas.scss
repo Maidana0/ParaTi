@@ -1,0 +1,58 @@
+
+.Recomendaciones{
+    border: solid 1px darkred;
+    box-shadow: 2px 0px 5px 2px darkred;
+    background-color: rgba(128, 128, 128, 0.233);
+    margin-top: 30px;  
+    padding-left: 0px;  
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-top: 15px;
+    margin-right: 20px; 
+    margin-left: 15px; 
+    margin-bottom: 7vh; 
+    transition: transform 1s;
+
+      :hover{transform: scale(1.05);}
+      small{
+          color: darkred;
+          font-family: 'Inconsolata', monospace;
+          font-size: 0.80em;
+          padding-left: 5px;}
+      h3{
+          font-family: 'Staatliches', cursive;
+          margin:auto;}
+
+      .Presentacion img{max-width: 600px;
+                     max-height: 350px}
+  
+      .Texto{
+            color: black;
+            padding-top: 9vh;
+            font-size: 1.1em;
+            padding-left: 4vh;
+            font-family: 'Inconsolata', monospace;}
+  
+        /* ICONO */
+        .netflix{
+            animation-name: rotarIcon;
+            max-width: 30px;
+            max-height: 30px;
+            transition: all 1s;
+            animation-duration: 0.5s;
+            animation-delay: 8s;}
+
+                    @keyframes rotarIcon{
+                      0%{
+                          transform: rotate(0deg)
+                      }
+                    
+                      50%{
+                          transform: rotate(180deg)
+                      }
+                    
+                      100%{
+                          transform: rotate(360deg)
+                      }
+                    }
+}

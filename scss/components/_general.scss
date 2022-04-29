@@ -1,0 +1,78 @@
+*{  padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    background-image: url(./imagenes/fondo_blanco.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* SCROLL */
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;}
+
+  *::-webkit-scrollbar-track {
+    background: rgba(177, 167, 167, 0.349);
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #692125;
+    border-radius: 5px;    
+  }
+
+  /* ENCABEZADO */
+.Encabezado{
+    padding-top: 20px; 
+    .Icono{
+        max-width: 50px;
+        max-height: 50px;
+        margin-left: 2vh;
+        margin-bottom: -5px;
+        margin-top: -15px;
+        animation-duration: 1.5s;
+        animation-delay: 4s;
+        animation-name: rotarIcono;
+      }
+}
+
+  .Menu li a:hover{
+    padding-left: 1.5rem;
+    transform: scale(1.05);
+    background-color: darkred;
+  }
+  .navbar-toggler:hover{
+    background-color: rgba(139, 0, 0, 0.527);
+  }
+  .inicioT{
+      font-family: 'Staatliches', cursive;
+  }
+  
+/* FOOTER */
+.footer{
+    font-family: 'Inconsolata', monospace;
+    padding-top:2vh;
+    padding-bottom:2vh;
+    border-top: 4px solid darkred;
+
+            a{text-decoration: none;
+                    color: white;}
+            a:hover{color: rgb(158, 76, 76);}
+            strong{ font-size: 18px;}
+            small{ font-size: 12px;}
+}
+
+.footer2{
+          font-family: 'Inconsolata', monospace;
+          padding-top:2vh;
+          padding-bottom:2vh;        
+                                  
+                   a{text-decoration: none;
+                           color: white;}
+                   a:hover{color: rgb(158, 76, 76);}
+                   strong{ font-size: 18px;}
+                   small{ font-size: 12px;}
+}  
+  

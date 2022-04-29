@@ -1,0 +1,78 @@
+
+/* RESPONSIVE */
+/* LISTA */
+@media only screen and (max-width: 768px){
+    .Texto{
+      padding-top: 1vh;
+    }
+    .inicioT img{display: none;}
+    
+    /* INDEX */
+  
+  #carouselExampleCaptions{display: none;}
+    
+  .index__full{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 92vh;
+        margin-bottom: 0vh;
+    }
+      .NavImagen{            
+        height: 100%;
+        width: 100%;
+        margin-bottom: 0vh;}
+      .Preferencia{
+        margin-bottom: 0vh;
+        margin-top: 0vh;
+      }
+      .index__nav{margin-bottom: 13vh;}
+  
+      /* SUGERENCIAS */
+  .feliz{
+    display: none;
+  }
+  .sugerencia{
+  margin-left: 15px;
+  text-align: center;
+  margin-right: 10px;
+  }
+  .sugerencias{
+  margin-left: 5px;
+  position:static;
+  display:flex;
+  flex-direction: column;
+  align-content:flex-start;
+  }
+         .sugerencias_series{
+         margin-left: 1px;
+         padding: 5px;
+         margin-top:5px;
+         width: 320px; 
+         }
+         .sugerencias_anime{
+             margin-left: 1px;
+             padding: 5px;
+             margin-top:5px;
+             margin-bottom:20px;
+             width: 320px; 
+         }
+         .SuAnime{margin-right: 40vh;
+                  margin-left: 5px;}
+         .sugerencias_peliculas{
+             margin-left: 1px;
+             padding: 5px;
+             margin-top:5px;
+             width: 320px; 
+             }
+         .comentario{
+             width:315px;
+             margin-left:10px;
+             padding: 5px;
+         }
+         .enviar{
+             width:180px;
+             margin-top: 5px;
+             margin-left: 100px;
+             margin-bottom: 55px;
+         }
+  }
