@@ -4,7 +4,7 @@
 
 body {
   background-color: black;
-  background-image: url(./imagenes/fondo_blanco.jpg);
+  background-image: url("./../imagenes/fondo_blanco.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
@@ -23,6 +23,9 @@ body {
   border-radius: 5px; }
 
 /* ENCABEZADO */
+a {
+  text-decoration: none; }
+
 .Encabezado {
   padding-top: 20px; }
   .Encabezado .Icono {
@@ -45,6 +48,32 @@ body {
 
 .inicioT {
   font-family: 'Staatliches', cursive; }
+
+.Preferencia {
+  font-family: 'Staatliches', cursive;
+  background: black;
+  background: linear-gradient(90deg, black 0%, #787878 50%, black 100%);
+  border-bottom: 4px solid darkred;
+  border-top: 3px solid darkred; }
+  .Preferencia .Icon {
+    max-width: 65px;
+    max-height: 65px;
+    margin: 1.5vh;
+    animation-duration: 1.5s;
+    animation-delay: 4s;
+    animation-name: rotarIcono; }
+
+@keyframes rotarIcono {
+  0% {
+    transform: rotate(0deg); }
+  25% {
+    transform: rotate(-35deg); }
+  50% {
+    transform: rotate(0deg); }
+  50% {
+    transform: rotate(35deg); }
+  100% {
+    transform: rotate(0deg); } }
 
 /* FOOTER */
 .footer {
@@ -118,7 +147,7 @@ body {
   margin-bottom: 7vh;
   transition: transform 1s;
   /* ICONO */ }
-  .Recomendaciones :hover {
+  .Recomendaciones:hover {
     transform: scale(1.05); }
   .Recomendaciones small {
     color: darkred;

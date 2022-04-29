@@ -3,7 +3,7 @@
 }
 body{
     background-color: black;
-    background-image: url(./imagenes/fondo_blanco.jpg);
+    background-image: url("./../imagenes/fondo_blanco.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -24,8 +24,10 @@ body{
   }
 
   /* ENCABEZADO */
+  a{text-decoration: none;}
 .Encabezado{
-    padding-top: 20px; 
+    padding-top: 20px;
+
     .Icono{
         max-width: 50px;
         max-height: 50px;
@@ -41,7 +43,7 @@ body{
   .Menu li a:hover{
     padding-left: 1.5rem;
     transform: scale(1.05);
-    background-color: darkred;
+    background-color: $bordo;
   }
   .navbar-toggler:hover{
     background-color: rgba(139, 0, 0, 0.527);
@@ -50,12 +52,49 @@ body{
       font-family: 'Staatliches', cursive;
   }
   
+
+  .Preferencia {
+    font-family: 'Staatliches', cursive;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
+    rgba(120,120,120,1) 50%, rgba(0,0,0,1) 100%);
+    border-bottom: 4px solid $bordo;
+    border-top: 3px solid $bordo;
+
+            .Icon{
+              max-width: 65px;
+              max-height: 65px;
+              margin: 1.5vh;
+              animation-duration: 1.5s;
+              animation-delay: 4s;
+              animation-name: rotarIcono;}
+                      @keyframes rotarIcono {
+                        0%{
+                            transform: rotate(0deg)
+                        }
+                        25%{
+                            transform: rotate(-35deg)}
+                      
+                        50%{
+                            transform: rotate(0deg)
+                        }
+                        50%{
+                            transform: rotate(35deg)}
+                      
+                        100%{
+                            transform: rotate(0deg)
+                        }
+                      }
+   }
+
+
+
 /* FOOTER */
 .footer{
     font-family: 'Inconsolata', monospace;
     padding-top:2vh;
     padding-bottom:2vh;
-    border-top: 4px solid darkred;
+    border-top: 4px solid $bordo;
 
             a{text-decoration: none;
                     color: white;}
