@@ -89,8 +89,10 @@ body{
 .carousel-control-next:hover{ background-color: rgba(0, 0, 0, 0.281);}
 .carousel-control-prev:hover{ background-color: rgba(0, 0, 0, 0.281);}
 
-.TituloIndex{display:none}
 
+.TituloIndex{display:none;}
+
+.index__full{display:none;}
 
 
 /* LISTA */
@@ -122,7 +124,6 @@ body{
 .Recomendaciones h3{
   font-family: 'Staatliches', cursive;
   margin:auto;
-  margin-left: 20px;
 }
 .Presentacion img{
   max-width: 600px; max-height: 350px
@@ -242,8 +243,6 @@ body{
 
 
 
-
-
 /* FOOTER */
 .footer{
   font-family: 'Inconsolata', monospace;
@@ -284,12 +283,27 @@ body{
   }
   .inicioT img{display: none;}
 
-.carousel-item{
-  /* agregar el responsive del primer intento */
-}
 
+  /* INDEX */
 
+#carouselExampleCaptions{display: none;}
   
+.index__full{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 92vh;
+      margin-bottom: 0vh;
+  }
+    .NavImagen{            
+      height: 100%;
+      width: 100%;
+      margin-bottom: 0vh;}
+    .Preferencia{
+      margin-bottom: 0vh;
+      margin-top: 0vh;
+    }
+    .index__nav{margin-bottom: 13vh;}
+
     /* SUGERENCIAS */
 .feliz{
   display: none;
