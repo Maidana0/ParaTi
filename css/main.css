@@ -133,6 +133,28 @@ a {
   100% {
     transform: rotate(0deg); } }
 
+/* ESTRENOS */
+.parent {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 10px; }
+
+.Estrenos {
+  border: solid 1px darkred;
+  box-shadow: 2px 0px 5px 2px darkred;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 3.5vh;
+  margin-right: 3vh;
+  width: 1080px;
+  height: 720px;
+  transition: transform 1s; }
+  .Estrenos:hover {
+    transform: scale(1.05); }
+
+/* LISTA */
 .Recomendaciones {
   border: solid 1px darkred;
   box-shadow: 2px 0px 5px 2px darkred;
@@ -285,6 +307,14 @@ a {
     margin-top: 0vh; }
   .index__nav {
     margin-bottom: 13vh; }
+  /* ESTRENOS */
+  .Estrenos {
+    height: 315px;
+    width: 90%;
+    margin-left: 2.5vh;
+    margin-right: 0vh;
+    transition: none;
+    transform: none; }
   /* SUGERENCIAS */
   .feliz {
     display: none; }
