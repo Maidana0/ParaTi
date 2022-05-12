@@ -4,29 +4,4 @@
 
 
 .index__full{display:none;
-        .Icon{
-            max-width: 65px;
-            max-height: 65px;
-            margin: 1.5vh;
-            animation-duration: 1.5s;
-            animation-delay: 4s;
-            animation-name: rotarIcono;
-        }
-            @keyframes rotarIcono {
-                0%{
-                    transform: rotate(0deg)
-                }
-                25%{
-                    transform: rotate(-35deg)}
-            
-                50%{
-                    transform: rotate(0deg)
-                }
-                50%{
-                    transform: rotate(35deg)}
-            
-                100%{
-                    transform: rotate(0deg)
-                }
-            }
 }

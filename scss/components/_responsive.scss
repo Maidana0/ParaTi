@@ -1,9 +1,6 @@
 
-/* RESPONSIVE */
-/* LISTA */
 @media only screen and (max-width: 768px){
     .Texto{
-      
       margin-top: -6vh;}
     .inicioT img{display: none;}
     /* INDEX */
@@ -14,23 +11,21 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 92vh;
-        margin-bottom: 0vh;
+        margin-bottom: map-get($margen, cero,);
     }
-      .NavImagen{            
-        height: 100%;
-        width: 100%;
-        margin-bottom: 0vh;}
+      .NavImagen{      
+        @include medida (100%, 100%);      
+        margin-bottom: map-get($margen, cero,);}
       .Preferencia{
-        margin-bottom: 0vh;
-        margin-top: 0vh;
+        margin-bottom: map-get($margen, cero,);
+        margin-top: map-get($margen, cero,);
       }
       .index__nav{margin-bottom: 13vh;}
      /* ESTRENOS */
       .Estrenos {  
-        height: 315px;
-        width: 90%;
+        @include medida (90%, 315px);
         margin-left: 2.5vh;
-        margin-right: 0vh;
+        margin-right: map-get($margen, cero,);
         transition: none;
         transform: none;
       }

@@ -1,1 +1,42 @@
 $bordo: darkred;
+
+$margen:(
+    cero: 0vh,);
+
+/* MAPS */
+$tipografia:(
+    letra1: 'Inconsolata',
+    letra2: 'Staatliches',);
+
+/*  EXTEND*/
+
+%pie{
+    font-family: map-get($tipografia, letra1);
+    padding-top:2vh;
+    padding-bottom:2vh;
+    a{text-decoration: none;
+        color: white;}
+    a:hover{color: rgb(158, 76, 76);}
+    strong{font-size: 18px;}
+    small{font-size: 12px;}
+};
+
+%marco{
+    &:hover{transform: scale(1.05);}
+    transition: transform 1s; 
+    border: solid 1px $bordo;
+    box-shadow: 2px 0px 5px 2px $bordo;
+};
+
+/* MIXIN */
+
+@mixin medida ($ancho, $alto)
+{width: $ancho;
+ height: $alto;}
+
+ @mixin max-medida ($ancho, $alto)
+ {  max-width: $ancho;
+    max-height: $alto;}
+
+
+

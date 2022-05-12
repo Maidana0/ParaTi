@@ -61,8 +61,7 @@
   }
   
   .feliz{
-    height: 42vh;
-    width: 42vh;
+    @include medida (42vh, 42vh);
     display: block;
     position:absolute;
     left: 105vh;
@@ -77,7 +76,7 @@
     
   }
   .divSugerencias{
-    font-family: 'Inconsolata', monospace;
+    font-family: map-get($tipografia, letra1),'monospace';
   }
   
   

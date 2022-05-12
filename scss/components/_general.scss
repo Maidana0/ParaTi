@@ -11,8 +11,7 @@ body{
 }
 /* SCROLL */
 *::-webkit-scrollbar {
-    width: 5px;
-    height: 5px;}
+  @include medida (5px, 5px)};
 
   *::-webkit-scrollbar-track {
     background: rgba(177, 167, 167, 0.349);
@@ -29,11 +28,8 @@ body{
     padding-top: 20px;
 
     .Icono{
-        max-width: 50px;
-        max-height: 50px;
-        margin-left: 2vh;
-        margin-bottom: -5px;
-        margin-top: -15px;
+      @include medida (50px, 50px);
+        margin: -15px 2vh -5px;
         animation-duration: 1.5s;
         animation-delay: 4s;
         animation-name: rotarIcono;
@@ -49,12 +45,12 @@ body{
     background-color: rgba(139, 0, 0, 0.527);
   }
   .inicioT{
-      font-family: 'Staatliches', cursive;
+      font-family: map-get($tipografia, letra2),'cursive';
   }
   
 
   .Preferencia {
-    font-family: 'Staatliches', cursive;
+    font-family: map-get($tipografia, letra2,);
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, 
     rgba(120,120,120,1) 50%, rgba(0,0,0,1) 100%);
@@ -62,8 +58,7 @@ body{
     border-top: 3px solid $bordo;
 
             .Icon{
-              max-width: 65px;
-              max-height: 65px;
+              @include max-medida (65px, 65px);
               margin: 1.5vh;
               animation-duration: 1.5s;
               animation-delay: 4s;
@@ -87,31 +82,13 @@ body{
                       }
    }
 
-
-
 /* FOOTER */
 .footer{
-    font-family: 'Inconsolata', monospace;
-    padding-top:2vh;
-    padding-bottom:2vh;
-    border-top: 4px solid $bordo;
-
-            a{text-decoration: none;
-                    color: white;}
-            a:hover{color: rgb(158, 76, 76);}
-            strong{ font-size: 18px;}
-            small{ font-size: 12px;}
+  @extend %pie;
+  border-top: 4px solid $bordo;
 }
 
 .footer2{
-          font-family: 'Inconsolata', monospace;
-          padding-top:2vh;
-          padding-bottom:2vh;        
-                                  
-                   a{text-decoration: none;
-                           color: white;}
-                   a:hover{color: rgb(158, 76, 76);}
-                   strong{ font-size: 18px;}
-                   small{ font-size: 12px;}
+  @extend %pie;
 }  
   

@@ -1,3 +1,27 @@
+/* MAPS */
+/*  EXTEND*/
+.footer, .footer2 {
+  font-family: "Inconsolata";
+  padding-top: 2vh;
+  padding-bottom: 2vh; }
+  .footer a, .footer2 a {
+    text-decoration: none;
+    color: white; }
+  .footer a:hover, .footer2 a:hover {
+    color: #9e4c4c; }
+  .footer strong, .footer2 strong {
+    font-size: 18px; }
+  .footer small, .footer2 small {
+    font-size: 12px; }
+
+.Estrenos, .Recomendaciones {
+  transition: transform 1s;
+  border: solid 1px darkred;
+  box-shadow: 2px 0px 5px 2px darkred; }
+  .Estrenos:hover, .Recomendaciones:hover {
+    transform: scale(1.05); }
+
+/* MIXIN */
 * {
   padding: 0;
   margin: 0; }
@@ -29,11 +53,9 @@ a {
 .Encabezado {
   padding-top: 20px; }
   .Encabezado .Icono {
-    max-width: 50px;
-    max-height: 50px;
-    margin-left: 2vh;
-    margin-bottom: -5px;
-    margin-top: -15px;
+    width: 50px;
+    height: 50px;
+    margin: -15px 2vh -5px;
     animation-duration: 1.5s;
     animation-delay: 4s;
     animation-name: rotarIcono; }
@@ -47,10 +69,10 @@ a {
   background-color: rgba(139, 0, 0, 0.527); }
 
 .inicioT {
-  font-family: 'Staatliches', cursive; }
+  font-family: "Staatliches", "cursive"; }
 
 .Preferencia {
-  font-family: 'Staatliches', cursive;
+  font-family: "Staatliches";
   background: black;
   background: linear-gradient(90deg, black 0%, #787878 50%, black 100%);
   border-bottom: 4px solid darkred;
@@ -77,33 +99,7 @@ a {
 
 /* FOOTER */
 .footer {
-  font-family: 'Inconsolata', monospace;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
   border-top: 4px solid darkred; }
-  .footer a {
-    text-decoration: none;
-    color: white; }
-  .footer a:hover {
-    color: #9e4c4c; }
-  .footer strong {
-    font-size: 18px; }
-  .footer small {
-    font-size: 12px; }
-
-.footer2 {
-  font-family: 'Inconsolata', monospace;
-  padding-top: 2vh;
-  padding-bottom: 2vh; }
-  .footer2 a {
-    text-decoration: none;
-    color: white; }
-  .footer2 a:hover {
-    color: #9e4c4c; }
-  .footer2 strong {
-    font-size: 18px; }
-  .footer2 small {
-    font-size: 12px; }
 
 .carousel-control-next:hover {
   background-color: rgba(0, 0, 0, 0.281); }
@@ -113,25 +109,6 @@ a {
 
 .index__full {
   display: none; }
-  .index__full .Icon {
-    max-width: 65px;
-    max-height: 65px;
-    margin: 1.5vh;
-    animation-duration: 1.5s;
-    animation-delay: 4s;
-    animation-name: rotarIcono; }
-
-@keyframes rotarIcono {
-  0% {
-    transform: rotate(0deg); }
-  25% {
-    transform: rotate(-35deg); }
-  50% {
-    transform: rotate(0deg); }
-  50% {
-    transform: rotate(35deg); }
-  100% {
-    transform: rotate(0deg); } }
 
 /* ESTRENOS */
 .parent {
@@ -142,43 +119,25 @@ a {
   grid-row-gap: 10px; }
 
 .Estrenos {
-  border: solid 1px darkred;
-  box-shadow: 2px 0px 5px 2px darkred;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
-  margin-left: 3.5vh;
-  margin-right: 3vh;
+  margin: 5vh 3vh 5vh 3.5vh;
   width: 1080px;
-  height: 720px;
-  transition: transform 1s; }
-  .Estrenos:hover {
-    transform: scale(1.05); }
+  height: 720px; }
 
 /* LISTA */
 .Recomendaciones {
-  border: solid 1px darkred;
-  box-shadow: 2px 0px 5px 2px darkred;
   background-color: rgba(128, 128, 128, 0.233);
-  margin-top: 30px;
-  padding-left: 0px;
-  padding-right: 5px;
-  padding-bottom: 3px;
-  padding-top: 15px;
-  margin-right: 20px;
-  margin-left: 15px;
-  margin-bottom: 7vh;
-  transition: transform 1s;
+  margin: 30px 20px 7vh 15px;
+  padding: 15px 5px 3px 0px;
+  background-color: rgba(128, 128, 128, 0.233);
   /* ICONO */
   margin-top: 2vh; }
-  .Recomendaciones:hover {
-    transform: scale(1.05); }
   .Recomendaciones small {
     color: darkred;
-    font-family: 'Inconsolata', monospace;
+    font-family: "Inconsolata", "monospace";
     font-size: 0.80em;
     padding-left: 5px; }
   .Recomendaciones h3 {
-    font-family: 'Staatliches', cursive;
+    font-family: "Staatliches", "cursive";
     margin: auto; }
   .Recomendaciones .Presentacion img {
     max-width: 600px;
@@ -188,7 +147,7 @@ a {
     padding-top: 9vh;
     font-size: 1.1em;
     padding-left: 5vh;
-    font-family: 'Inconsolata', monospace; }
+    font-family: "Inconsolata", "monospace"; }
   .Recomendaciones .AnimeFLV {
     max-width: 120px;
     max-height: 60px;
@@ -266,8 +225,8 @@ a {
   padding: 5px; }
 
 .feliz {
-  height: 42vh;
   width: 42vh;
+  height: 42vh;
   display: block;
   position: absolute;
   left: 105vh;
@@ -281,10 +240,8 @@ a {
   margin-bottom: 2vh; }
 
 .divSugerencias {
-  font-family: 'Inconsolata', monospace; }
+  font-family: "Inconsolata", "monospace"; }
 
-/* RESPONSIVE */
-/* LISTA */
 @media only screen and (max-width: 768px) {
   .Texto {
     margin-top: -6vh; }
@@ -299,8 +256,8 @@ a {
     grid-template-rows: 92vh;
     margin-bottom: 0vh; }
   .NavImagen {
-    height: 100%;
     width: 100%;
+    height: 100%;
     margin-bottom: 0vh; }
   .Preferencia {
     margin-bottom: 0vh;
@@ -309,8 +266,8 @@ a {
     margin-bottom: 13vh; }
   /* ESTRENOS */
   .Estrenos {
-    height: 315px;
     width: 90%;
+    height: 315px;
     margin-left: 2.5vh;
     margin-right: 0vh;
     transition: none;

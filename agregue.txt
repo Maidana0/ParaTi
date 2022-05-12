@@ -1,0 +1,41 @@
+Agruegue una pagina de Estrenos, que tiene videos de youtube.
+Los titulos ya los tenia agregado.
+Los keywords:
+1) INDEX:
+"SERIES, NETFLIX, STAR, DISNEY, ESTRENOS, PELICULAS, ANIME, ONE PIECE, BATMAN, QUE VER, DONDE VER"
+
+2) ANIME
+"ANIME, ONE PIECE, BATMAN, QUE VER, DONDE VER, ANIMEFLV, PARA VER, BLEACH, NARUTO, ITACHI, SHONNEN, COMEDIA, FANTASIA, TITANES, TITAN, EREN, HEROES"
+
+3) PELICULAS:
+"QUE VER, DONDE VER, PARA VER, COMEDIA, DRAMA, ENTRETENIMIENTO, CINE, CALIDAD, RECOMENDACIONES, BATMAN, THE JOKER, GUASON, MARVEL, DC COMICS"
+
+4) ESTRENOS:
+RECOMENDACIONES, BATMAN, QUE VER, DONDE VER, CINE, MARVEL, DR STRANGE, EMMA WATTSON, HARRY POTTER, MINIOMS, THOR, DC, CINE, 2022
+
+5)SERIES:
+"QUE VER, DONDE VER, PARA VER, COMEDIA, DRAMA, ENTRETENIMIENTO, CINE, SERIES PARA VER, SERIES, NETFLIX, STAR, AMAZON, DISNEY, PRIMEVIDEO, 
+ CALIDAD, RECOMENDACIONES, BATMAN, THE JOKER, GUASON, MARVEL, DC COMICS, VIKINGOS, VIKINGS, POCHOCLOS"
+
+6)SUGERENCIAS:
+CONTACTO, SUGERENCIAS, RECOMENDACIONES, SERIES, NETFLIX, AMAZON, PRIME VIDEO, STAR, DISNEY, ESTRENOS, PELICULAS, ANIME, ONE PIECE, BATMAN, QUE VER, DONDE VER"
+
+
+Descripciones:
+1) "Dentro de este sitio podras encontrar Entretenimiento Para Ti con sus respectivas plataformas de video. 
+    Podras recibir recomendaciones de entretenimiento en pantalla para disfrutar en tu tiempo libre."
+
+2)  "Dentro de este sitio encontrarás Entretenimiento Para Ti con sus respectivos sitios web para visualizarlos. 
+    Podrás recibir recomendaciones para ver los mejores anime del 2020 para disfrutar en tu tiempo libre."
+
+3)  "Dentro de este sitio encontrarás Entretenimiento Para Ti con sus respectivass plataformas. 
+    Podrás recibir recomendaciones para ver las mejores peliculas para disfrutar en tu tiempo libre."
+
+4)  Dentro de este sitio encontrarás Entretenimiento Para Ti. 
+    Podrás encontrar los mejores Estrenos en el 2022 para poder disfrutar en la pantalla grande!!
+
+5)  "Dentro de este sitio encontrarás Entretenimiento Para Ti con sus respectivass plataformas. 
+    Podrás recibir recomendaciones para ver las mejores Series para disfrutar en tu tiempo libre."
+
+6)  "Dentro de este sitio encontrarás Entretenimiento Para Ti con sus respectivas plataformas de video. 
+    Escribenos tus peliculas, series o anime favoritos para agregarlos en nuestra lista de recomendaciones!!"
