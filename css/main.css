@@ -1,7 +1,7 @@
 /* MAPS */
 /*  EXTEND*/
 .footer, .footer2 {
-  font-family: "Inconsolata";
+  font-family: "Inconsolata", "monospace";
   padding-top: 2vh;
   padding-bottom: 2vh; }
   .footer a, .footer2 a {
@@ -129,8 +129,7 @@ a {
   margin: 30px 20px 7vh 15px;
   padding: 15px 5px 3px 0px;
   background-color: rgba(128, 128, 128, 0.233);
-  /* ICONO */
-  margin-top: 2vh; }
+  /* ICONO */ }
   .Recomendaciones small {
     color: darkred;
     font-family: "Inconsolata", "monospace";
@@ -148,14 +147,13 @@ a {
     font-size: 1.1em;
     padding-left: 5vh;
     font-family: "Inconsolata", "monospace"; }
-  .Recomendaciones .AnimeFLV {
-    max-width: 120px;
-    max-height: 60px;
+  .Recomendaciones .iconoss {
     margin-top: 2vh; }
+    .Recomendaciones .iconoss img {
+      max-width: 120px;
+      max-height: 30px; }
   .Recomendaciones .netflix {
     animation-name: rotarIcon;
-    max-width: 30px;
-    max-height: 30px;
     transition: all 1s;
     animation-duration: 0.5s;
     animation-delay: 8s; }

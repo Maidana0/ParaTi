@@ -1,17 +1,17 @@
 $bordo: darkred;
 
 $margen:(
-    cero: 0vh,);
+    cero: 0vh);
 
 /* MAPS */
 $tipografia:(
-    letra1: 'Inconsolata',
-    letra2: 'Staatliches',);
+    letra1: 'Inconsolata'
+    letra2: 'Staatliches');
 
 /*  EXTEND*/
 
 %pie{
-    font-family: map-get($tipografia, letra1);
+    font-family: map-get($tipografia, letra1),'monospace';
     padding-top:2vh;
     padding-bottom:2vh;
     a{text-decoration: none;

@@ -40,17 +40,14 @@
             font-family: map-get($tipografia, letra1),'monospace';}
   
         /* ICONO */
-        .AnimeFLV{
-            @include max-medida (120px, 60px);
-            margin-top: 2vh;
-        }
+        .iconoss{margin-top: 2vh;
+          img{@include max-medida (120px, 30px);}}
+        
         .netflix{
             animation-name: rotarIcon;
-            @include max-medida (30px, 30px);
             transition: all 1s;
             animation-duration: 0.5s;
             animation-delay: 8s;}
-            margin-top: 2vh;
 
                     @keyframes rotarIcon{
                       0%    {transform: rotate(0deg)}                   
