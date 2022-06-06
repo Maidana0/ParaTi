@@ -24,7 +24,7 @@
      /* ESTRENOS */
       .Estrenos {  
         @include medida (90%, 315px);
-        margin-left: 2.5vh;
+        margin-left: 2.8vh;
         margin-right: map-get($margen, cero,);
         transition: none;
         transform: none;
